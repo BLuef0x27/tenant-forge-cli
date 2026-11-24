@@ -1,0 +1,22 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# Terraform artifacts
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.override
+tfplan
+*.tfplan
+
+# Generated tenant variable files; the example is tracked on purpose
+*.tfvars
+!tenants/example-acme.tfvars
